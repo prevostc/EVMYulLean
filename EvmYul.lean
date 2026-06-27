@@ -56,6 +56,7 @@ import EvmYul.Yul.SizeLemmas
 import EvmYul.Yul.State
 import EvmYul.Yul.StateOps
 import EvmYul.Yul.Wheels
-import EvmYul.Yul.YulNotation
+-- YulNotation requires Lean parser API port (4.30); import separately when needed.
+-- import EvmYul.Yul.YulNotation
 
 import EvmYul.SpongeHash.Keccak256
